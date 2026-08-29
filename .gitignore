@@ -1,0 +1,59 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*credential*
+*credentials*
+*secret*
+*token*
+*auth*.json
+*oauth*
+*session*
+*cookie*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Real local OpenCode configuration (publish examples only)
+/opencode.json
+/opencode.jsonc
+
+# Dependencies and caches
+node_modules/
+.cache/
+cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Backups and archives
+backup/
+backups/
+*-backup*/
+*.bak
+*.backup
+skills-archive/
+skills-backup*/
+
+# Local machine and IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local package-manager artifacts not used by this repository
+package-lock.json
+bun.lock
