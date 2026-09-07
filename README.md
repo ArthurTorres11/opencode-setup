@@ -50,6 +50,24 @@ cp examples/opencode.example.json ~/.config/opencode/opencode.jsonc
 
 Se já houver configuração nesses caminhos, compare e faça backup antes de substituir arquivos. O exemplo de configuração é JSON válido e também pode ser usado como JSONC.
 
+## Autenticação com Antigravity
+
+Com o plugin `@cortexkit/opencode-antigravity-auth` configurado no `opencode.jsonc` (veja `examples/opencode.example.json`), autentique via Google OAuth:
+
+- **Via terminal (CLI):**
+  ```bash
+  npx -y @cortexkit/opencode-antigravity-auth login
+  ```
+  *(use `--no-browser` em sessões SSH ou headless)*
+
+- **Dentro do OpenCode:** execute o comando `/antigravity-account add` ou selecione **Antigravity** no menu de autenticação.
+
+Para verificar contas conectadas e quotas:
+```bash
+npx -y @cortexkit/opencode-antigravity-auth quota
+```
+*(ou execute `/antigravity-quota` dentro do OpenCode)*
+
 ## Fluxo por projeto
 
 1. Abrir o repositório no OpenCode.
