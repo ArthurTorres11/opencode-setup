@@ -32,6 +32,29 @@ Combine skills only when their responsibilities are complementary.
 
 Use each skill's description and activation criteria to decide when it is relevant.
 
+## Superpowers
+
+Superpowers provides structured workflows for non-trivial software engineering tasks.
+
+Use Superpowers workflows automatically when they materially improve the task.
+
+For substantial or ambiguous work:
+
+1. clarify the problem and expected behavior;
+2. brainstorm or evaluate approaches when multiple viable solutions exist;
+3. create an implementation plan before making significant changes;
+4. implement incrementally;
+5. validate the implementation;
+6. review the result against the original requirements.
+
+Do not force the full workflow for trivial tasks, small edits, simple fixes, or well-defined changes.
+
+Prefer domain-specific project skills when they provide more relevant technical guidance.
+
+Superpowers should complement, not replace, existing skills and project instructions.
+
+Avoid unnecessary planning overhead when the task is already well understood and the correct implementation is straightforward.
+
 ## Context management
 
 Treat context as a limited resource.
